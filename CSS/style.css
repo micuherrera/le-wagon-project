@@ -1,0 +1,111 @@
+/* style.css */
+body{
+  background:#faf9f9;
+  color: black;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+h2 {
+ font-family: 'Patrick Hand SC', cursive;
+  color: white;
+  font-weight: lighter;
+  font-size: 70px;
+}
+a {
+  color: blue;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#title {
+background-color: #faf9f9;
+  text-align: center;
+  color: #450920;
+}
+
+#title h1{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 80px;
+
+}
+
+#paris {
+  background-image: url('../images/paris.jpg');
+ 
+}
+
+#amsterdam {
+  background-image: url('../images/amsterdam.jpg');
+  
+}
+
+#barcelona {
+  background-image: url('../images/barcelona1.jpg');
+  
+}
+
+#roma {
+  background-image: url('../images/roma.jpg');
+}
+
+#mendoza {
+  background-image: url('../images/mendoza.jpg');
+}
+
+#iguazu {
+  background-image: url('../images/iguazu.jpg');
+}
+
+#bariloche {
+  background-image: url('../images/bariloche.jpg');
+}
+
+#puertomadryn {
+  background-image: url('../images/pinguinos.jpg');
+}
+
+
+
+.tarjeta {
+  background-color: #dddddd;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 450px;
+  box-shadow: 5px 10px 8px #888888;
+  padding: 30px;
+  margin: 30px ;
+  font-size: 60px;
+  border-radius: 10px;
+}
+
+.banner {
+
+height: 250px;
+}
+
+#footer {
+  background-color:#faf9f9;
+  height: 150px;
+}
+
+#footer p {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #450920;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+.socialMedia a {
+	text-decoration: none;
+	color: #450920;
+	font-size: 50px;
+}
+
+.socialMedia a:hover {
+	color: #A53860
+}
